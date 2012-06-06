@@ -1,0 +1,178 @@
+#header-global-ceu {
+	height: 128px;
+	background-color: #0F2439;
+}
+
+#header-left-ceu {
+	width: 250px;
+	float: left;
+	display: inline;
+	padding: 34px 0 0 0px;
+	text-align: left;
+	height: 55px;
+}
+
+.sanjuan #header-left-ceu {
+	width: 324px;
+	float: left;
+	display: inline;
+	padding: 17px 0 0 15px;
+	text-align: left;
+	height: 95px;
+}
+
+#header-links {
+}
+
+#global-links ul {
+	float: left;
+	padding: 0px;
+	padding-top: 12px;
+	list-style: none;
+}
+
+#global-links ul li {
+	display: inline;
+	padding: 0px 2px;
+}
+
+#global-links ul.usuNav a {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	color: #ffffff;
+}
+
+#header-links a:hover {
+	color: #909fb1;
+}
+
+
+#header-right-ceu #global-links {
+	width: 600px;
+	float: right;
+	height: 30px;
+	margin-bottom: 18px;
+}
+
+#global-links form { 
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#global-links fieldset.search {
+	border: none;
+	width: 200px;
+	background: #0f2439;
+}
+
+#global-links .search input, #global-links .search button {
+	border: none;
+	float: left;
+}
+
+#global-links .search input.box {
+	color: #193C72;
+	font-size: 1.2em;
+	width: 150px;
+	height: 17px;
+	background: #0f2439 url(../images/search-box.png) no-repeat;
+	padding:2px 0 0 17px;
+}
+
+#global-links .search button.btn {
+	width: 25px;
+	height: 19px;
+	cursor: pointer;
+	text-indent: -9999px;
+	background: #0f2439 url(../images/search-box-btn.png) no-repeat top right;
+}
+
+#global-links .search button.btn:hover {
+	background: #0f2439 url(../images/search-box-btn.jpg) no-repeat bottom right;
+}
+
+#header-right-ceu #gold-links {
+	float: right;
+	width: 270px;
+	height: 80px;
+}
+
+.sanjuan #header-right-ceu #gold-links {
+	float: right;
+	width: 553px;
+	height: 80px;
+}
+
+#header-right-ceu #gold-links h3 {
+	color: #ceb85e;
+	font-size: 12px;
+	font-family: Verdana;
+	padding-bottom: 5px;
+	font-weight: 600;
+	padding-left: 10px;
+}
+
+#header-right-ceu #gold-links ul {
+	width: 230px;
+	list-style: none;
+
+}
+
+.sanjuan #header-right-ceu #gold-links ul {
+	width: 553px;
+}
+
+#header-right-ceu #gold-links ul li.odd {
+	width: 108px;
+	float: left;
+	padding-right: 10px;
+	background-color: transparent;
+	padding-left: 10px;
+}
+
+.sanjuan #header-right-ceu #gold-links ul li.odd {
+	width: auto;
+	float: left;
+	padding-right: 18px;
+	background-color: transparent;
+	padding-left: 18px;
+}
+
+.sanjuan #header-right-ceu #gold-links ul li.odd.first {
+	padding-left: 10px;
+}
+
+#header-right-ceu #gold-links ul li.even {
+	width: 87px;
+	float: right;
+}
+
+.sanjuan #header-right-ceu #gold-links ul li.even {
+	width: auto;
+	float: left;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+#header-right-ceu #gold-links ul li a {
+	color: #ceb85e;
+	font-size: 11px;
+	font-family: Verdana;
+}
+
+#header-right-ceu #gold-links ul li a:hover {
+	color: #e1ce82;
+}
+
+#header-wrapper {
+	text-align: left;
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+	overflow: hidden;
+}
+
+#header-wrapper-inner {
+	margin: 0px 0px;
+}

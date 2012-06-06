@@ -1,0 +1,27 @@
+name = sanjuan
+description = theme from Price template, created by Hannah Kim @ USU
+core = 7.x
+engine = phptemplate
+
+regions[navigation] = Navigation
+regions[header] = Header
+regions[banner] = Banner
+regions[searchbox] = Search Box
+regions[logo] = Logo
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer] = Footer
+regions[submenu_left] = Sub Menu Box left
+regions[submenu_right] = Sub Menu Box right
+regions[submenu_bottom] = Sub Menu Box right bottom
+
+
+stylesheets[screen][] = css/index.css
+stylesheets[screen][] = css/usuEastern.css
+
+scripts[] = javascript/mootools-1.2.4-core.js
+scripts[] = javascript/mootools.syncheight.js
+scripts[] = javascript/mootools.tabs.js
